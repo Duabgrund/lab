@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>Navigation map</title>
+    <link rel="stylesheet" type="text/css" href="mainsheet.css">
+</head>
+
+<body bgcolor="#F8EDEB">
+    <!--Header start-->
+    <header>
+        <nav>
+            <div id="nav-container">
+                <ul>
+                    <li style="float: left;">
+                        <a href="index.html" style="padding: 0;">
+                            <img src="logo.png" alt="Website" style="height: 70px;">
+                        </a>
+                    </li>
+                    <li><a href="audvid.html">Audio and video</a></li>
+                    <li><a href="form.html">Form</a></li>
+                    <li><a href="navmap.html">Navigation map</a></li>
+                    <li><a href="tables.html">Tables</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!--Header end-->
+    <div class="content">
+        <div style="margin: 0 10px;">
+            <h2 style="text-align: center;">Chose YOUR language to learn!</h2>
+        </div>
+        <div>
+            <map name="main-map">
+                <area shape="rect" coords="0,0,500,500" href="https://uk.wikipedia.org/wiki/HTML" alt="HTML">
+                <area shape="rect" coords="500,0,1000,500" href="https://uk.wikipedia.org/wiki/CSS" alt="CSS">
+                <area shape="rect" coords="0,500,500,1000" href="https://uk.wikipedia.org/wiki/JavaScript" alt="JS">
+                <area shape="rect" coords="500,500,1000,1000" href="https://uk.wikipedia.org/wiki/PHP" alt="PHP">
+            </map>
+            <img src="map.jpg" alt="Languages" usemap="#main-map" style="display: block; margin: 15px auto;">
+        </div>
+    </div>
+    <!--Footer start-->
+    <footer>
+        <ul>
+            <li style="float: left;">example@mail.com</li>
+            <li style="float: right;">Copyring 2024</li>
+        </ul>
+    </footer>
+    <!--Footer end-->
+</body>
+
+</html>

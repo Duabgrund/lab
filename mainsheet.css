@@ -1,0 +1,203 @@
+/*adding font*/
+@font-face {
+    font-family: "Titillium";
+    src: url('TitilliumWeb-Light.ttf');
+}
+
+body {
+    font-family: "Titillium";
+    margin: 0;
+}
+
+/*Nav bar start*/
+a:link {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 22px 10px;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+nav {
+    display: block;
+    background-color: #333;
+    overflow: hidden;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+#nav-container {
+    display: block;
+    max-width: 1200px;
+    min-width: 660px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#nav-container ul {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+    text-align: right;
+}
+
+#nav-container li {
+    vertical-align: middle;
+    float: right;
+}
+
+/*Nav bar end*/
+/*slider start*/
+#slider-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 20px 0;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+#slider-title {
+    display: block;
+    width: 50vw;
+    margin: auto 20px;
+    color: #333;
+}
+
+#slider {
+    display: block;
+    width: 50vw;
+    text-align: right;
+}
+
+#slider img {
+    max-height: 250px;
+}
+
+/*slider end*/
+
+.content {
+    display: block;
+    max-width: 1200;
+    min-width: 1000px;
+    margin: 10px auto;
+}
+
+/*panels start*/
+#panels-container {
+    padding: 20px;
+}
+
+.panel-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: auto;
+}
+
+.panel {
+    margin: 10px;
+    max-width: 350px;
+    min-width: 200px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #8d8d8d;
+    padding: 10px;
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.6);
+}
+
+.panel p {
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter";
+}
+
+/*panels end*/
+/*info panel start*/
+#info {
+    display: block;
+    max-width: 1100px;
+    margin: 10px auto;
+}
+
+#info p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*info panel end*/
+/*footer start*/
+footer {
+    display: block;
+    background-color: #555;
+    color: white;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    min-width: 660px;
+    max-width: 1200px;
+    overflow: hidden;
+}
+
+footer li {
+    display: block;
+    padding: 20px;
+}
+
+/*footer end*/
+/*tables start*/
+#info-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#info-table td,
+#info-table th {
+    border: 1px solid #8d8d8d;
+    padding: 5px;
+}
+
+#info-table th {
+    background-color: #555;
+    color: white;
+}
+
+/*tables end*/
+
+/*video, audio and form*/
+video {
+    width: 100%;
+    padding: 10px;
+}
+
+.audio-title {
+    margin-left: 20px;
+}
+
+audio {
+    display: block;
+    width: 100%;
+}
+
+form p {
+    margin: 5px auto;
+}

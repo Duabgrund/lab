@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>Form</title>
+    <link rel="stylesheet" type="text/css" href="mainsheet.css">
+</head>
+
+<body bgcolor="#F8EDEB">
+    <!--Header start-->
+    <header>
+        <nav>
+            <div id="nav-container">
+                <ul>
+                    <li style="float: left;">
+                        <a href="index.html" style="padding: 0;">
+                            <img src="logo.png" alt="Website" style="height: 70px;">
+                        </a>
+                    </li>
+                    <li><a href="audvid.html">Audio and video</a></li>
+                    <li><a href="form.html">Form</a></li>
+                    <li><a href="navmap.html">Navigation map</a></li>
+                    <li><a href="tables.html">Tables</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!--Header end-->
+    <div class="content" style="display: flex; margin-top: 50px; margin-bottom: 50px;">
+        <div style="display: inline-block; width: 49%; margin: auto 10px;">
+            <h1>Need some help? <br> To contact us fill a form on the right!</h1>
+        </div>
+        <div style="display: inline-block; width: 49%;">
+            <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+                <p>Name:</p>
+                <input type="text" name="name" style="width: 100%;"><br>
+                <p>E-mail:</p>
+                <input type="text" name="mail" style="width: 100%;"><br>
+                <p>Comment:</p>
+                <textarea rows="5" cols="60" name="text" placeholder="Enter text"
+                    style="width: 100%;"></textarea><br><br>
+                <input type="submit" value="Send">
+                <input type="reset" value="Reset">
+            </form>
+        </div>
+    </div>
+    <!--Footer start-->
+    <footer>
+        <ul>
+            <li style="float: left;">example@mail.com</li>
+            <li style="float: right;">Copyring 2024</li>
+        </ul>
+    </footer>
+    <!--Footer end-->
+</body>
+
+</html>
